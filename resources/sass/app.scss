@@ -1,0 +1,20 @@
+// Variables
+@import 'variables';
+
+@import "~tailwindcss/base";
+
+@import "~tailwindcss/components";
+
+@import "~tailwindcss/utilities";
+
+.section {
+    @apply .px-4;
+}
+
+.button {
+    @apply .bg-blue-400 .text-white .no-underline .rounded-lg .text-sm .py-2 .px-5 .shadow;
+}
+
+.card {
+    @apply .bg-white .p-5 .rounded-lg .shadow;
+}
